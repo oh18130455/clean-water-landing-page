@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity: Water - The Activist Student</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .section {
+      background-color: #40c4ff; /* light blue background */
+      padding: 2rem 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .text-box {
+      flex: 1;
+      min-width: 280px;
+      max-width: 600px;
+      color: #000;
+    }
+
+    .text-box h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .text-box p {
+      font-size: 1rem;
+    }
+
+    .image-box {
+      flex: 1;
+      min-width: 280px;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .cta {
+      background-color: #00acc1;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .cta button {
+      background-color: #00838f;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta button:hover {
+      background-color: #005662;
+    }
+
+    footer {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LANDING PAGE</h1>
+  </header>
+
+  <section class="section">
+    <div class="text-box">
+      <h2>The Activist Student</h2>
+      <p>
+        At charity: water, 100% of all donations go directly to supplying clean water for those in need. Join a global movement of changemakers (especially college students) to solve the water crisis.
+        <br><br>
+        Be the generation that ends it once and for all. You’ll be able to see exactly where your donations go and how they supply clean water step by step.
+      </p>
+    </div>
+    <div class="image-box">
+      <img src="https://oh18130455.github.io/clean-water-landing-page" alt="Clean vs Dirty Water">
+      <p><strong>Change the world by supplying clean water</strong></p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <p>Ready to make a difference?</p>
+    <button onclick="alert('Thank you for joining!')">Join Us</button>
+  </section>
+
+  <footer>
+    charity: water &copy; 2025 | Built with 💧 in mind
+  </footer>
+</body>
+</html>
